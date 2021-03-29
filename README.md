@@ -9,6 +9,7 @@ Seu arquivo de imagem de recuperação pode estar corrompido. Portanto, baixe-o 
 3) Meu disco rígido tem um nome diferente de sda.
 Você pode editar o script install.sh e substituir "sda" pelo nome do seu disco rígido.
 ou digite os seguintes comandos linha por linha no terminal e substitua o nome do seu hdd por "sdX"
+
 sudo apt update
 sudo apt install pv
 sudo apt install cgpt
