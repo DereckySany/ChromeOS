@@ -11,9 +11,12 @@ Você pode editar o script install.sh e substituir "sda" pelo nome do seu disco 
 ou digite os seguintes comandos linha por linha no terminal e substitua o nome do seu hdd por "sdX"
 
 sudo apt update
+
 sudo apt install pv
+
 sudo apt install cgpt
-sudo chromeos-install.sh -src rammus_recovery.bin -dst /dev/sdX   
+
+sudo chromeos-install.sh -src rammus_recovery.bin -dst /dev/sdX
 
 4) Não consigo inicializar.
 Verifique as configurações do BIOS e desative a inicialização segura, CSM, modo Legecy e ative a opção de inicialização UEFI
